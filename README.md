@@ -22,12 +22,6 @@
 - **Maximum Log Entries**: Limits the number of log lines displayed to prevent the script from being overwhelmed (default: 2000 lines).
 - **Password Protection:** Protects the script with a password to prevent unauthorized access.
 
-## Screenshots
-
-![access](assets/screenshots/1.png)
-![phpfpm](assets/screenshots/2.png)
-![slow](assets/screenshots/3.png)
-
 ## Log Format Patterns
 
 The log analyzer uses regular expressions to identify different log formats. You can easily extend support for new log types by adding patterns to the `$logPatterns` array.
@@ -88,6 +82,12 @@ In Nginx, you can achieve similar functionality by using the `location` directiv
 
 - PHP 8.0 or higher
 - Web server (Apache, Nginx, etc.)
+
+## Screenshots
+
+![access](assets/screenshots/1.png)
+![phpfpm](assets/screenshots/2.png)
+![slow](assets/screenshots/3.png)
 
 ## License
 

@@ -22,6 +22,12 @@
 - **Maximum Log Entries**: Limits the number of log lines displayed to prevent the script from being overwhelmed (default: 2000 lines).
 - **Password Protection:** Protects the script with a password to prevent unauthorized access.
 
+## Screenshots
+
+![access](assets/1.png)
+![phpfpm](assets/2.png)
+![slow](assets/3.png)
+
 ## Log Format Patterns
 
 The log analyzer uses regular expressions to identify different log formats. You can easily extend support for new log types by adding patterns to the `$logPatterns` array.
@@ -73,7 +79,7 @@ In Nginx, you can achieve similar functionality by using the `location` directiv
         deny all;
 
         include fastcgi_params;
-        fastcgi_pass unix:/var/run/php/php8.0-fpm.sock; # Ajust
+        fastcgi_pass unix:/var/run/php/php8.0-fpm.sock; # Adjust
         fastcgi_param SCRIPT_FILENAME /home/$user/permanent/sherlog.php;
     }
 ```

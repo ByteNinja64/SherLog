@@ -1,6 +1,10 @@
 # SherLog - PHP Single File Log Analyzer
 
-<img src="assets/SherLog.png" alt="SherLog Logo" width="100" height="100">
+<div style="display: flex; align-items: center;">
+  <img src="assets/SherLog.png" alt="SherLog Logo" width="100" height="100" style="margin-right: 10px;">
+  <span>This project is a single file log analyzer written in PHP. It enables you to read various log formats including PHP slow logs, PHP-FPM error logs, Apache 2.4 access logs, and Apache 2.4 error logs. It is compatible with PHP 8 and uses a mask system that allows you to easily add new log types for interpretation.</span>
+</div>
+
 
 This project is a single file log analyzer written in PHP. It enables you to read various log formats including PHP slow logs, PHP-FPM error logs, Apache 2.4 access logs, and Apache 2.4 error logs. It is compatible with PHP 8 and uses a mask system that allows you to easily add new log types for interpretation.
 

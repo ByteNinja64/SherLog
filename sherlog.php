@@ -3,7 +3,7 @@ session_start();
 
 $password = 'MyPassw0rd'; // Password to access the script
 $logDir = '../../logs/';
-$maxLogEntries = 5000; // Limit of log lines displayed
+$maxLogEntries = 2000; // Limit of log lines displayed
 
 // Function to sanitize the input
 function sanitize_input(string $input): string {

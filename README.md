@@ -22,6 +22,7 @@ $logPatterns = [
     'apache-error' => '/^\[[A-Za-z]{3} [A-Za-z]{3} \d{2} \d{2}:\d{2}:\d{2}\.\d{6} \d{4}\] \[[a-z]+:[a-z]+\]/',
     'slow-php' => '/^\[\d{2}-[A-Za-z]{3}-\d{4} \d{2}:\d{2}:\d{2}\]/'
 ];
+```
 
 ## How to Use
 
@@ -42,6 +43,7 @@ This tool can be deployed in systems like Apache's `<Files>` directive to mainta
 <Files "log-viewer.php">
     Require all granted
 </Files>
+```
 
 ### Nginx Configuration
 
@@ -55,6 +57,7 @@ location /log-viewer.php {
     fastcgi_pass unix:/var/run/php/php8.0-fpm.sock; # Adjust according to your PHP-FPM socket
     fastcgi_param SCRIPT_FILENAME /path/to/log-viewer.php; # Adjust to your file path
 }
+```
 
 ## Requirements
 

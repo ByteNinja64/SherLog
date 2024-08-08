@@ -24,9 +24,9 @@
 
 ## Screenshots
 
-![access](assets/1.png)
-![phpfpm](assets/2.png)
-![slow](assets/3.png)
+![access](assets/screenshots/1.png)
+![phpfpm](assets/screenshots/2.png)
+![slow](assets/screenshots/3.png)
 
 ## Log Format Patterns
 

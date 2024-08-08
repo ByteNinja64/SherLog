@@ -47,11 +47,11 @@ $logPatterns = [
 
 ## Make it Permanent
 
-Ensure that your log analysis capabilities remain in place even after production updates by integrating this tool into systems such as Apache's <Files> directive or Nginx's location directive. You can use a specific permanent path in your directives.
+Ensure that your log analysis capabilities remain in place even after production updates by integrating this tool into systems such as Apache's Alias directive or Nginx's location directive. You can use a specific permanent path in your directives.
 
 ### Apache Configuration
 
-To maintain log analysis capabilities in Apache, you can use the `<Files>` directive. This ensures that the configuration remains intact even after production updates. Here's an example configuration for Apache:
+To maintain log analysis capabilities in Apache, you can use the `Alias` directive. This ensures that the configuration remains intact even after production updates. Here's an example configuration for Apache:
 
 ```apache
 Alias /sherlog.php /home/$user/permanent/sherlog.php
